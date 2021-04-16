@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <ComponentGroup Id="ELASTIC_LIB_FOLDER" Directory="ELASTIC_LIB_FOLDER">
+      <Component Id="jna_5.7.0_1.jar">
+        <File Id="jna_5.7.0_1.jar" Source="$(var.ElasticPackagePath)\lib\jna-5.7.0-1.jar" />
+      </Component>
+      <Component Id="t_digest_3.2.jar">
+        <File Id="t_digest_3.2.jar" Source="$(var.ElasticPackagePath)\lib\t-digest-3.2.jar" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

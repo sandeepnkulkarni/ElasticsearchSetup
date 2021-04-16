@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <ComponentGroup Id="ELASTIC_ROOT_FOLDER" Directory="ELASTIC_ROOT_FOLDER">
+      <Component Id="LICENSE.txt">
+        <File Id="LICENSE.txt" Source="$(var.ElasticPackagePath)\LICENSE.txt" />
+      </Component>
+      <Component Id="NOTICE.txt">
+        <File Id="NOTICE.txt" Source="$(var.ElasticPackagePath)\NOTICE.txt" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

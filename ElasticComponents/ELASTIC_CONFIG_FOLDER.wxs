@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <ComponentGroup Id="ELASTIC_CONFIG_FOLDER" Directory="ELASTIC_CONFIG_FOLDER">
+      <Component Id="elasticsearch.yml">
+        <File Id="elasticsearch.yml" Source="$(var.ElasticPackagePath)\config\elasticsearch.yml" />
+      </Component>
+      <Component Id="jvm.options">
+        <File Id="jvm.options" Source="$(var.ElasticPackagePath)\config\jvm.options" />
+      </Component>
+      <Component Id="log4j2.properties">
+        <File Id="log4j2.properties" Source="$(var.ElasticPackagePath)\config\log4j2.properties" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ElasticsearchSetup", "ElasticsearchSetup\ElasticsearchSetup.wixproj", "{48281C03-D260-4F3A-9033-BCDD17B54DCD}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ElasticComponents", "ElasticComponents\ElasticComponents.wixproj", "{2EA467A8-3BDF-4A8F-B909-82F1AD9BAE64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48281C03-D260-4F3A-9033-BCDD17B54DCD}.Debug|x86.ActiveCfg = Debug|x86
+		{48281C03-D260-4F3A-9033-BCDD17B54DCD}.Debug|x86.Build.0 = Debug|x86
+		{48281C03-D260-4F3A-9033-BCDD17B54DCD}.Release|x86.ActiveCfg = Release|x86
+		{48281C03-D260-4F3A-9033-BCDD17B54DCD}.Release|x86.Build.0 = Release|x86
+		{2EA467A8-3BDF-4A8F-B909-82F1AD9BAE64}.Debug|x86.ActiveCfg = Debug|x86
+		{2EA467A8-3BDF-4A8F-B909-82F1AD9BAE64}.Debug|x86.Build.0 = Debug|x86
+		{2EA467A8-3BDF-4A8F-B909-82F1AD9BAE64}.Release|x86.ActiveCfg = Release|x86
+		{2EA467A8-3BDF-4A8F-B909-82F1AD9BAE64}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F741A7BD-558F-408A-B395-463BE41B1173}
+	EndGlobalSection
+EndGlobal
